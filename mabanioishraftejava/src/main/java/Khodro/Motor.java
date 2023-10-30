@@ -1,13 +1,7 @@
 package Khodro;
 
-public class Motor {
-    boolean AyaRoshanAst;
-    public void roshan(){
-        AyaRoshanAst = true ;
-    }
-    public void khamoush(){
-        AyaRoshanAst = false;
-    }
+public class Motor extends khodro {
+
     public boolean ayaDarHaleHarkatAst() {
         return  AyaRoshanAst;
     }
